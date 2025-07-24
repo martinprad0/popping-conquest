@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     import { ButtonGroup, Button } from "flowbite-svelte";
     let navVisible = true;
     import { EyeOutline, EyeSlashOutline } from "flowbite-svelte-icons";
@@ -38,9 +39,9 @@
             class="bg-white/40 shadow-md *:ring-primary-700! *:rounded-t-none *:rounded-b-md *:border-2 *:border-primary-200"
         >
             <Button href="/">Inicio</Button>
-            <Button href="/live">Transmisión</Button>
-            <Button href="/sevenToSmoke">7-To-Smoke</Button>
-            <Button href="/openStyle">Open Style</Button>
+            <Button href="{base}/live">Transmisión</Button>
+            <Button href="{base}/sevenToSmoke">7-To-Smoke</Button>
+            <Button href="{base}/openStyle">Open Style</Button>
         </ButtonGroup>
     {/if}
 </header>

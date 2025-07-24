@@ -15,9 +15,7 @@
 >
     <h1>Inicio</h1>
 </div>
-
-<div class="flex justify-center">
-    <div class="w-full">
+<div class="w-full">
         <div
             class="flex justify-center mb-4 bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
         >
@@ -36,6 +34,7 @@
             </iframe>
         </div>
     </div>
+
     <div class="w-full">
         <div
             class="flex justify-center mb-6 bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
@@ -65,7 +64,7 @@
             </Table>
         </div>
     </div>
-</div>
+
 
 <div
     class="flex justify-center mb-6 bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
