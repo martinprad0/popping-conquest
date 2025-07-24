@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { base } from '$app/paths';
+    import { base } from "$app/paths";
     import { ButtonGroup, Button } from "flowbite-svelte";
     let navVisible = true;
     import { EyeOutline, EyeSlashOutline } from "flowbite-svelte-icons";
@@ -27,18 +27,20 @@
         <div
             class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
         >
-            <img
-                src="assets/banner.svg"
-                alt="Banner"
-                class="h-24 object-contain"
-            />
+            <a href="{base}/" aria-label="Go to homepage">
+                <img
+                    src="assets/banner.svg"
+                    alt="Banner"
+                    class="h-24 object-contain cursor-pointer"
+                />
+            </a>
         </div>
     </div>
     {#if navVisible}
         <ButtonGroup
             class="bg-white/40 shadow-md *:ring-primary-700! *:rounded-t-none *:rounded-b-md *:border-2 *:border-primary-200"
         >
-            <Button href="/">Inicio</Button>
+            <Button href="{base}/">Inicio</Button>
             <Button href="{base}/live">Transmisión</Button>
             <Button href="{base}/sevenToSmoke">7-To-Smoke</Button>
             <Button href="{base}/openStyle">Open Style</Button>

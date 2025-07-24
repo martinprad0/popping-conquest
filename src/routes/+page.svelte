@@ -10,12 +10,12 @@
     } from "flowbite-svelte";
 </script>
 
-<div
+<!-- <div
     class="my-7 mx-auto w-fit rounded-xl backdrop-blur-md bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
 >
     <h1>Inicio</h1>
-</div>
-<div class="w-full">
+</div> -->
+<div class="w-full mt-12">
         <div
             class="flex justify-center mb-4 bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
         >

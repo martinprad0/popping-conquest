@@ -19,8 +19,8 @@
       lowlightColor: 0x3010c3,
       baseColor: 0xffffff,
       blurFactor: 0.35,
-      speed: 1.8,
-      zoom: 2.20
+      speed: 1.7,
+      zoom: 1.20
     });
   
     return () => effect?.destroy?.();
