@@ -22,15 +22,15 @@
 </div>
 <div class=" flex justify-center">
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <Card img="assets/IMG_4225.JPG">
+        <Card img="assets/IMG_4225.JPG" class="min-w-[40vw]">
             <h5 class="text-lg font-semibold text-center">Mancho</h5>
         </Card>
 
-        <Card img="assets/IMG_4226.JPG">
+        <Card img="assets/IMG_4226.JPG" class="min-w-[40vw]">
             <h5 class="text-lg font-semibold text-center">Ricky Rulez</h5>
         </Card>
 
-        <Card img="assets/IMG_4227.JPG">
+        <Card img="assets/IMG_4227.JPG" class="min-w-[40vw]">
             <h5 class="text-lg font-semibold text-center">TayTay</h5>
         </Card>
     </div>
