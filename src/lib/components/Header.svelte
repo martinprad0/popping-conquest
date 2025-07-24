@@ -1,7 +1,7 @@
 <script lang="ts">
     import { base } from "$app/paths";
     import { ButtonGroup, Button } from "flowbite-svelte";
-    let navVisible = false;
+    let navVisible = true;
     import { EyeOutline, EyeSlashOutline } from "flowbite-svelte-icons";
 </script>
 
