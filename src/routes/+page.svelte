@@ -20,21 +20,22 @@
 >
     <h2 class="text-2xl">Panel de Jueces</h2>
 </div>
-<div class=" flex justify-center">
-    <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <Card img="assets/IMG_4225.JPG" class="min-w-[40vw]">
-            <h5 class="text-lg font-semibold text-center">Mancho</h5>
-        </Card>
+<div class="overflow-x-auto">
+  <div class="flex gap-4 px-4">
+    <Card img="assets/IMG_4225.JPG" class="min-w-[280px] max-w-[320px]">
+      <h5 class="text-lg font-semibold text-center">Mancho</h5>
+    </Card>
 
-        <Card img="assets/IMG_4226.JPG" class="min-w-[40vw]">
-            <h5 class="text-lg font-semibold text-center">Ricky Rulez</h5>
-        </Card>
+    <Card img="assets/IMG_4226.JPG" class="min-w-[280px] max-w-[320px]">
+      <h5 class="text-lg font-semibold text-center">Ricky Rulez</h5>
+    </Card>
 
-        <Card img="assets/IMG_4227.JPG" class="min-w-[40vw]">
-            <h5 class="text-lg font-semibold text-center">TayTay</h5>
-        </Card>
-    </div>
+    <Card img="assets/IMG_4227.JPG" class="min-w-[280px] max-w-[320px]">
+      <h5 class="text-lg font-semibold text-center">TayTay</h5>
+    </Card>
+  </div>
 </div>
+
 
 <div class="w-full mt-12">
     <div
