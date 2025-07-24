@@ -13,12 +13,12 @@
         <div class="absolute left-4 top-1/2 -translate-y-1/2">
             <Button
                 onclick={() => (navVisible = !navVisible)}
-                class="p-2 bg-white/20 hover:bg-primary-500"
+                class="p-2 bg-white/20 hover:bg-primary-500 *:h-[1.8rem] *:w-[1.8rem]"
             >
                 {#if !navVisible}
                     <EyeOutline />
                 {:else}
-                    <EyeSlashOutline />
+                    <EyeSlashOutline class=""/>
                 {/if}
             </Button>
         </div>
@@ -38,7 +38,7 @@
     </div>
     {#if navVisible}
         <ButtonGroup
-            class="*:mx-[0.4px] shadow-md *:ring-primary-700! *:rounded-t-none *:rounded-b-md *:border-0 *:border-primary-200 *:bg-white/50 *:divide-x *:hover:bg-white/20"
+            class="*:mx-[0.4px] shadow-md *:ring-primary-700! *:rounded-t-none *:rounded-b-md *:border-0 *:border-primary-200 *:bg-white/50 *:divide-x *:hover:bg-white/20" 
         >
             <Button href="{base}/">Inicio</Button>
             <Button href="{base}/live">Transmisión</Button>

@@ -18,9 +18,9 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 px-0">
     <div class="w-full mt-12">
         <div
-            class="flex w-[90%] mx-auto justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
+            class="flex w-[90%] h-20 mx-auto items-center justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
         >
-            <h1 class="text-2xl">Panel de Jueces</h1>
+            <h1 class="text-2xl truncate">Panel de Jueces</h1>
         </div>
         <div class="overflow-x-hidden">
             <div class="flex gap-4 px-4 w-max scroll-auto-x">
@@ -70,13 +70,13 @@
 
     <div class="w-full mt-12">
         <div
-            class="flex w-[90%] mx-auto justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
+            class="flex w-[90%] h-20 mx-auto items-center justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
         >
             <h1>Cronograma</h1>
         </div>
         <div class="flex justify-center">
             <Table
-                class="w-5/6 max-w-4xl h-96 rounded-md shadow-md mb-8 :divide-y-0 "
+                class="w-5/6 max-w-4xl h-full rounded-md shadow-md mb-8 :divide-y-0 "
             >
                 <TableHead class="bg-white/60 hover:underline">
                     <TableHeadCell>Evento</TableHeadCell>
@@ -102,7 +102,7 @@
 
     <div class="w-full mt-12">
         <div
-            class="flex w-[90%] mx-auto justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
+            class="flex w-[90%] h-20 mx-auto items-center justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
         >
             <h1>Cómo llegar</h1>
         </div>
