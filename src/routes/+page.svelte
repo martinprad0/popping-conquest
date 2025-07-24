@@ -15,12 +15,12 @@
 >
     <h1>Inicio</h1>
 </div> -->
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 px-2">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 px-0">
     <div class="w-full mt-12">
         <div
-            class="flex justify-center mb-6 bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
+            class="flex w-[90%] mx-auto justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
         >
-            <h2 class="text-2xl">Panel de Jueces</h2>
+            <h1 class="text-2xl">Panel de Jueces</h1>
         </div>
         <div class="overflow-x-hidden">
             <div class="flex gap-4 px-4 w-max scroll-auto-x">
@@ -70,7 +70,7 @@
 
     <div class="w-full mt-12">
         <div
-            class="flex justify-center mb-6 bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
+            class="flex w-[90%] mx-auto justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
         >
             <h2 class="text-2xl">Cronograma</h2>
         </div>
@@ -102,7 +102,7 @@
 
     <div class="w-full mt-12">
         <div
-            class="flex justify-center mb-4 bg-white/50 px-6 py-4 shadow-md border-4 border-primary-200"
+            class="flex w-[90%] mx-auto justify-center mb-6 bg-white/70 shadow-md px-6 py-4 border-0 border-primary-200 rounded"
         >
             <h2 class="text-2xl">Cómo llegar</h2>
         </div>

@@ -1,7 +1,7 @@
 <script lang="ts">
     import { base } from "$app/paths";
     import { ButtonGroup, Button } from "flowbite-svelte";
-    let navVisible = true;
+    let navVisible = false;
     import { EyeOutline, EyeSlashOutline } from "flowbite-svelte-icons";
 </script>
 
@@ -15,7 +15,7 @@
                 onclick={() => (navVisible = !navVisible)}
                 class="p-2 bg-white/20 hover:bg-primary-500"
             >
-                {#if navVisible}
+                {#if !navVisible}
                     <EyeOutline />
                 {:else}
                     <EyeSlashOutline />
@@ -38,7 +38,7 @@
     </div>
     {#if navVisible}
         <ButtonGroup
-            class="bg-white/40 shadow-md *:ring-primary-700! *:rounded-t-none *:rounded-b-md *:border-2 *:border-primary-200"
+            class="*:mx-[0.4px] shadow-md *:ring-primary-700! *:rounded-t-none *:rounded-b-md *:border-0 *:border-primary-200 *:bg-white/50 *:divide-x *:hover:bg-white/20"
         >
             <Button href="{base}/">Inicio</Button>
             <Button href="{base}/live">Transmisión</Button>
