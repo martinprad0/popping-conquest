@@ -11,7 +11,7 @@ html {
 
 @media (min-width: 768px) {
   body {
-    zoom: 2;
+    zoom: 1.5;
     transform-origin: top left;
   }
 }
@@ -19,7 +19,7 @@ html {
 
 * {
     font-family: 'Bitcount';
-    font-size: 12px;
+    font-size: 11.5px;
     color: var(--color-primary-500)
 }
 

@@ -38,7 +38,7 @@
   }
 </style>
 
-<div bind:this={vantaContainer} class="vanta-bg"></div>
+<div  bind:this={vantaContainer} class="vanta-bg"></div>
 
 <Header />
 <slot />

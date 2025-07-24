@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { fly } from "svelte/transition";
     import { base } from "$app/paths";
     import { ButtonGroup, Button } from "flowbite-svelte";
     let navVisible = true;
@@ -37,7 +38,8 @@
         </div>
     </div>
     {#if navVisible}
-        <ButtonGroup
+        <div transition:fly="{{x:-500, duration:400}}">
+            <ButtonGroup
             class="*:mx-[0.4px] shadow-md *:ring-primary-700! *:rounded-t-none *:rounded-b-md *:border-0 *:border-primary-200 *:bg-white/50 *:divide-x *:hover:bg-white/20" 
         >
             <Button href="{base}/">Inicio</Button>
@@ -45,5 +47,6 @@
             <Button href="{base}/sevenToSmoke">7-To-Smoke</Button>
             <Button href="{base}/openStyle">Open Style</Button>
         </ButtonGroup>
+        </div>
     {/if}
 </header>
