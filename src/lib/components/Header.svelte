@@ -27,7 +27,7 @@
             class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
         >
             <img
-                src="/src/assets/banner.svg"
+                src="/assets/banner.svg"
                 alt="Banner"
                 class="h-24 object-contain"
             />

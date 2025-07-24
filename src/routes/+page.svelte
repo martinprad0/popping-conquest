@@ -75,14 +75,14 @@
 
 <div class=" flex justify-center">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <Card img="/src/assets/IMG_4225.JPG">
+        <Card img="/assets/IMG_4225.JPG">
             <h5 class="text-lg font-semibold text-center">Mancho</h5>
         </Card>
 
-        <Card img="/src/assets/IMG_4226.JPG">
+        <Card img="/assets/IMG_4226.JPG">
             <h5 class="text-lg font-semibold text-center">Ricky Rulez</h5>
         </Card>
-        <Card img="/src/assets/IMG_4227.JPG">
+        <Card img="/assets/IMG_4227.JPG">
             <h5 class="text-lg font-semibold text-center">TayTay</h5>
         </Card>
     </div>
