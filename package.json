@@ -36,8 +36,11 @@
 	"dependencies": {
 		"@tailwindcss/postcss": "^4.1.11",
 		"@tailwindcss/vite": "^4.1.11",
+		"@xyflow/svelte": "^1.2.2",
 		"autoprefixer": "^10.4.21",
+		"firebase": "^12.0.0",
 		"postcss": "^8.5.6",
+		"svelte-dnd-action": "^0.9.64",
 		"tailwindcss": "^4.1.11"
 	}
 }

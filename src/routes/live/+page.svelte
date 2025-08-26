@@ -1,5 +1,5 @@
 <script lang="ts">
-    let stream_link = "https://www.youtube.com/embed/czsot21OvxA"
+    let stream_link = "https://www.youtube.com/embed/czsot21OvxA add"
     let highligth_links = [
         "https://www.youtube.com/embed/djV11Xbc914",
         "https://www.youtube.com/embed/FTQbiNvZqaY",
